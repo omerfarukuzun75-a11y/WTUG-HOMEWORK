@@ -1,0 +1,31 @@
+<main class="content">
+      <img class="flower" src="images/rose.jpg" alt="">
+      <p>BİR DEMET GÜL FİYATI: 3500 ₺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stokta Var</p>
+      <img class="flower" src="images/Tulipa_suaveolens_floriade_to_Canberra.jpg" alt="">
+      <p>BİR DEMET LALE FİYATI: 1500 ₺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stokta Var</p>
+      <img class="flower" src="images/lavanta-cicegi.jpg" alt="">
+      <p>BİR DEMET LAVANTA FİYATI: 200 ₺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stokta 4 Adet Var</p>
+      <img class="flower" src="images/lilia-bia-jak-uprawia-lili-bia-w-ogrodzie.jpg" alt="">
+      <p>BİR DEMET ZAMBAK FİYATI: 3500 ₺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stokta Var</p>
+      <img class="flower" src="images/papatya-cicegi-tohumu.webp" alt="">
+      <p>BİR DEMET PAPATYA FİYATI: 3500 ₺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stokta Var</p>
+      <img class="flower" src="images/Orkide.jpg" alt="">
+      <p>BİR DEMET ORKİDE FİYATI: 3500 ₺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stokta Kalmadı</p>
+      <img class="flower" src="images/kasimpati-krizantem-cicegi-bakimi-nasil-yapilir.webp" alt="">
+      <p>BİR DEMET KASIMPATI FİYATI: 3500 ₺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stokta Var</p>
+      <img class="flower" src="images/nergis-cicegi.jpg" alt="">
+       <p> BİR DEMET NERGİS FİYATI: 800₺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stokta Var</p>
+      <img class="flower" src="images/begonya-cicegi-bakimi-cogaltilmasi-sulama-teknikleri.webp" alt="">
+      <p>BİR DEMET BEGONYA FİYATI: 1350 ₺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stokta Kalmadı</p>
+      <img class="flower" src="images/liyum.jpg" alt="">
+      <p>BİR DEMET LİLYUM FİYATI: 2300 ₺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stokta Kalmadı</p>
+      <img class="flower" src="images/leylak.jpg" alt="">
+      <p>BİR DEMET LEYLAK FİYATI: 800 ₺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stokta Var</p>
+      <img class="flower" src="images/Iris_sanguinea_cultivar,_Wakehurst_Place,_UK_-_Diliff.jpg" alt="">
+      <p>BİR DEMET İRİS FİYATI: 8500 ₺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stokta Var</p>
+      <img class="flower" src="images/sümbül.jpg" alt="">
+      <p>BİR DEMET SÜMBÜL FİYATI: 50 ₺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stokta Var</p>
+      <img class="flower" src="images/874184179lisyantuscicegilisianthus.jpg" alt="">
+      <p>BİR DEMET LİSYANTUS FİYATI: 100 ₺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stokta Var</p>
+      <img class="flower" src="images/lotus.jpeg" alt="">
+      <p>BİR DEMET LOTUS FİYATI: 3500 ₺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Son 10 Adet</p>

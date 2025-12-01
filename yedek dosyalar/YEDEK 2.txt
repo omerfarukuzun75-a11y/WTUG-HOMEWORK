@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROJE ADI - Anasayfa</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-icon">
+      <img id="Logo" src="images/flogo.jpg" alt="" />
+    </div>
+    <div class="project-title">Fatih Çiçekçilik</div>
+  </header>
+
+  <div class="main-container" style="background-color: rgb(252, 196, 91)">
+    <nav class="sidebar">
+      <ul>
+        <li>
+          <a href="anasayfa.html"><i class="fas fa-home"></i> Anasayfa</a>
+        </li>
+        <li>
+          <a href="hakkimizda.html"><i class="fas fa-users"></i> Hakkımızda</a>
+        </li>
+        <li>
+          <a href="iletisim.html"><i class="fas fa-envelope"></i> İletişim</a>
+        </li>
+        <li>
+          <a href="urunlerimiz.html"><i class="fas fa-cog"></i> Ürünlerimiz
+          </a>
+        </li>
+        <li>
+          <a href="Siparis.html"><i class="fas fa-shopping-cart"></i> Sipariş
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main class="content">
+      <h1>SAYFAMIZA HOŞGELDİNİZ</h1>
+      <strong><p>EN ÇOK SATTIĞIMIZ ÜRÜNLERİMİZ</p></strong>
+      <img style="width: 290px; height: 290px;margin-bottom: 40px;" src="images/lavanta-cicegi.jpg" alt="">
+      <img style="width: 290px; height: 290px;margin-bottom: 40px;" src="images/begonya-cicegi-bakimi-cogaltilmasi-sulama-teknikleri.webp" alt="">
+      <img style="width: 290px; height: 290px;margin-bottom: 40px;" src="images/lotus.jpeg" alt="">
+      <img style="width: 290px; height: 290px;margin-bottom: 40px;" src="images/Orkide.jpg" alt="">
+      <strong><p>EN BEĞENİLEN ÜRÜNLERİMİZ</p></strong>
+      <img src="images/" alt="">
+    </main>
+  </div>
+<div>
+  <footer class="footer">&copy; Ömer Faruk UZUN 11-A AMP 200</footer>
+  <img class="footer" src="images/instagram-icon-facebook-twitter-logo-260nw-2378791129-removebg-preview.png" alt="">
+</div>
+  
+</body>
+
+</html>
