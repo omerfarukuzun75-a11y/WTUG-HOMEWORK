@@ -2,15 +2,19 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Kutuların boyutunu daha kolay kontrol etmek için */
+  box-sizing: border-box;
+  /* Kutuların boyutunu daha kolay kontrol etmek için */
 }
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4; /* Hafif gri arka plan */
-  display: flex; /* Dikeyde yerleşimi ayarlamak için */
+  background-color: #f4f4f4;
+  /* Hafif gri arka plan */
+  display: flex;
+  /* Dikeyde yerleşimi ayarlamak için */
   flex-direction: column;
-  min-height: 100vh; /* Sayfanın en az ekran yüksekliği kadar olmasını sağlar */
+  min-height: 100vh;
+  /* Sayfanın en az ekran yüksekliği kadar olmasını sağlar */
 }
 
 /* ---------------------------------- */
@@ -20,7 +24,8 @@ body {
   background-color: #333;
   color: white;
   padding: 0px 20px 0px 20px;
-  display: flex; /* Yatayda hizalama için */
+  display: flex;
+  /* Yatayda hizalama için */
   align-items: center;
 }
 
@@ -28,7 +33,8 @@ body {
   padding: 10px;
   margin-right: 20px;
   font-weight: bold;
-  min-width: 50px; /* Sabit bir genişlik verdik */
+  min-width: 50px;
+  /* Sabit bir genişlik verdik */
   text-align: center;
 }
 
@@ -41,23 +47,28 @@ body {
 /* 2. MAIN CONTAINER (Ana Kapsayıcı) */
 /* ---------------------------------- */
 .main-container {
-  display: flex; /* Navigasyon ve içeriği yan yana hizalamak için */
-  flex-grow: 1; /* Kalan boşluğu doldurmasını sağlar */
+  display: flex;
+  /* Navigasyon ve içeriği yan yana hizalamak için */
+  flex-grow: 1;
+  /* Kalan boşluğu doldurmasını sağlar */
 }
 
 /* ---------------------------------- */
 /* 3. SIDEBAR (Sol Navigasyon) Alanı */
 /* ---------------------------------- */
 .sidebar {
-  width: 200px; /* Sidebar'ın genişliği */
+  width: 200px;
+  /* Sidebar'ın genişliği */
   background-color: #444;
   color: white;
   padding: 20px 0;
-  min-height: 100%; /* İçeriği ne kadar uzun olursa olsun dikeyde tam uzamasını sağlar */
+  min-height: 100%;
+  /* İçeriği ne kadar uzun olursa olsun dikeyde tam uzamasını sağlar */
 }
 
 .sidebar ul {
-  list-style: none; /* Liste işaretlerini kaldırır */
+  list-style: none;
+  /* Liste işaretlerini kaldırır */
 }
 
 .sidebar li a {
@@ -65,22 +76,30 @@ body {
   padding: 10px 20px;
   text-decoration: none;
   color: white;
-  transition: background-color 0.3s; /* Geçiş efekti */
+  transition: background-color 0.3s;
+  /* Geçiş efekti */
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -ms-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
 }
 
 .sidebar li a:hover {
-  background-color: #007bff; /* Üzerine gelince mavi olur */
+  background-color: #007bff;
+  /* Üzerine gelince mavi olur */
 }
 
 .sidebar li a i {
-  margin-right: 10px; /* İkonlar ile yazı arasına boşluk */
+  margin-right: 10px;
+  /* İkonlar ile yazı arasına boşluk */
 }
 
 /* ---------------------------------- */
 /* 4. CONTENT (Ana İçerik) Alanı */
 /* ---------------------------------- */
 .content {
-  flex-grow: 1; /* Kalan tüm genişliği kaplar */
+  flex-grow: 1;
+  /* Kalan tüm genişliği kaplar */
   background-color: white;
 }
 
@@ -101,6 +120,7 @@ body {
   padding: 10px;
   font-size: 0.9em;
 }
+
 /* Genel Ayarlar (Aynı) */
 * {
   margin: 0;
@@ -120,8 +140,8 @@ body {
 /* 1. HEADER (Aynı) */
 /* ---------------------------------- */
 .header {
-  background-color: rgb(180, 223, 113);
-  color: rgb(12, 12, 12);
+  background-color: rgb(207, 38, 75);
+  color: rgb(252, 249, 249);
   display: flex;
   align-items: center;
 }
@@ -129,6 +149,7 @@ body {
 .header img {
   width: 100px;
   height: 100px;
+
 }
 
 .header-icon {
@@ -144,22 +165,19 @@ body {
   font-weight: bold;
 }
 
-/* ---------------------------------- */
-/* 2. MAIN CONTAINER (Aynı) */
-/* ---------------------------------- */
+/* 2. MAIN CONTAINER */
 .main-container {
   display: flex;
   flex-grow: 1;
   min-width: 500px;
 }
 
-/* ---------------------------------- */
-/* 3. SIDEBAR (Aynı) */
-/* ---------------------------------- */
+
+/* 3. SIDEBAR */
 .sidebar {
   width: 200px;
- background-color: rgb(180, 223, 113);
-  color: rgb(10, 8, 8);
+  background-color: rgb(207, 38, 75);
+  color: rgb(255, 255, 255);
   padding: 20px 0;
   min-height: 100%;
 }
@@ -172,7 +190,7 @@ body {
   display: block;
   padding: 10px 20px;
   text-decoration: none;
-  color: rgb(10, 8, 8);
+  color: rgb(241, 238, 238);
   transition: background-color 0.3s;
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
@@ -181,12 +199,12 @@ body {
 }
 
 .sidebar li a:hover {
-  background-color: rgb(221, 147, 221); /* Üzerine gelince Koyu Turuncu olur */
+  background-color: rgb(255, 84, 5);
 }
 
-/* YENİ EKLENEN KURAL: Aktif sayfayı mavi yapar */
 .sidebar li a.active {
-  background-color: rgb(221, 147, 221); /* Turuncunun biraz koyusu */
+  background-color: rgb(207, 38, 75);
+  /* Turuncunun biraz koyusu */
   font-weight: bold;
 }
 
@@ -198,9 +216,8 @@ body {
 /* 4. CONTENT (Aynı) */
 /* ---------------------------------- */
 .content {
-  flex-grow: 1; /*flex-grow değeri, esnek konteynerdeki boş alanın (kalan alan) nasıl dağıtılacağını belirtir.
-  Bir elementin flex-grow değeri ne kadar büyükse, o element o kadar fazla boş alan alır.*/
-  background-color: rgb(218, 132, 167);
+  flex-grow: 1;
+  background-color:gold;
   width: 100%;
   margin-left: 0;
   margin-right: auto;
@@ -209,9 +226,8 @@ body {
   justify-content: space-between;
 }
 
-.homepage-content{
-  flex-grow: 1; /*flex-grow değeri, esnek konteynerdeki boş alanın (kalan alan) nasıl dağıtılacağını belirtir.
-  Bir elementin flex-grow değeri ne kadar büyükse, o element o kadar fazla boş alan alır.*/
+.homepage-content {
+  flex-grow: 1;
   background-image: url('../images/cicekgezisi_01.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -221,7 +237,7 @@ body {
   margin-right: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 
@@ -236,7 +252,8 @@ body {
 /* İçerik paragraf ve alt başlıkları için (Yeni) */
 .content p {
   margin-bottom: 15px;
-  line-height: 1.6; /* Satır yüksekliği */
+  line-height: 1.6;
+  /* Satır yüksekliği */
 }
 
 .content h2 {
@@ -250,57 +267,43 @@ body {
 /* 5. FOOTER (Aynı) */
 /* ---------------------------------- */
 .footer {
-  background-color: rgb(183, 223, 113);
-  color: rgb(5, 5, 5);
+  background-color: rgb(207, 38, 75);
+  color: rgb(216, 208, 208);
   text-align: center;
-  padding: 10px 20px;
-  font-size: 0.9em;
-  border-top: 3px solid #007bff;
-  display: flex;
-  align-items: center;
+  font-size: 0.9;
 }
-/* Bu kodu <style> etiketleri arasına veya harici CSS dosyanıza ekleyin */
 
 .social-icons-container {
-    /* Konumu sabitler, böylece kullanıcı sayfayı kaydırsa bile köşede kalır. */
-    position: fixed; 
-    
-    /* Sağ kenara 20 piksel, alt kenara 20 piksel boşluk bırakır. */
-    bottom: 20px; 
-    right: 20px; 
-    
-    /* Simge hizalaması için Flexbox kullanın */
-    display: flex; 
-    
-    /* Simgeler arasında boşluk bırakmak isterseniz */
-    gap: 10px; 
-    
-    /* Diğer içeriklerin üstünde kalmasını sağlar */
-    z-index: 1000; 
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 1000;
 }
 
 .social-icons-container img {
-    /* Simge boyutlarını ayarlayın */
-    width: 50px; /* İstediğiniz boyuta göre ayarlayabilirsiniz */
-    height: 50px;
-    
-    /* Yuvarlak simgeler için */
-    border-radius: 50%;
-    
-    /* Daha iyi bir görünüm için hafif gölge ekleyebilirsiniz */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* İsteğe bağlı: Fare simge üzerine geldiğinde hafif bir efekt ekler */
 .social-icons-container img:hover {
-    opacity: 0.8;
-    transform: scale(1.05);
-    transition: all 0.2s ease-in-out;
+  opacity: 0.8;
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
 }
 
 #Lavanta {
   width: 100px;
 }
+
 #Gül {
   width: 120px;
   height: 80px;
@@ -310,7 +313,7 @@ body {
   width: 320px;
   flex-direction: row;
   margin-bottom: 40px;
-  padding:5px;
+  padding: 5px;
   transition: all 0.5s ease-in;
   border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -322,15 +325,18 @@ body {
   -ms-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
 }
+
 .flowerStructure {
   display: flex;
   gap: 42px;
 }
+
 .FlowerDesignText {
   display: flex;
   flex-direction: column;
   width: 70%;
 }
+
 .flower-text-title {
   margin: 0px;
   padding: 0px;
@@ -339,35 +345,45 @@ body {
 .flower:hover {
   scale: 1.02;
 }
+
 #Logo {
   width: 100px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transform: scale(0.5s);
 }
-.siparis:hover{
+
+.siparis:hover {
   scale: 1.03;
 }
+
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .center iframe {
-    display: block;
-    margin: 20px auto;
-    width: 900px;
-    height: 550px;
+  display: block;
+  margin: 20px auto;
+  width: 900px;
+  height: 550px;
 }
+
 .orta {
-    width: 900px;
-    height: 550px;
-    display: block;
-    margin: 20px auto;
+  width: 900px;
+  height: 550px;
+  display: block;
+  margin: 20px auto;
 }
 
 
-.image-container{
+.image-container {
   display: flex;
 }
 
-.homepage-title{
+.homepage-title {
   width: auto;
   display: flex;
   align-items: center;
@@ -375,16 +391,41 @@ body {
   justify-items: center;
 }
 
-.products-container{
+.products-container {
   display: flex;
   justify-content: space-between;
 }
 
-.new-coming-products
-{
+.new-coming-products {
   margin-right: 3rem;
 }
 
-.homepage-titles-color{
-  color: rgb(0, 255, 170);
+.homepage-titles-color {
+  color: rgb(33, 201, 231);
+}
+
+.order-btn {
+  cursor: pointer;
+  width: 50%;
+  padding: 20px 20px;
+  background-color: orange;
+  color: black;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.order-btn:hover {
+  background-color: rgb(255, 145, 0);
+  color: white;
+}
+.regular-btn{
+  background-color: rgb(23, 165, 42);
+  color: aliceblue;
+}
+.basari-mesaji{
+  background-color: gold;
+  height: auto;
 }
